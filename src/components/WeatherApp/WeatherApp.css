@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sub-container {
+  background-color: rgb(255, 255, 255);
+  width: 25em;
+  height: 20em;
+  border-radius: 10px;
+}
+
+.data-container {
+  margin-left: 5em;
+  background-color: rgb(255, 255, 255);
+  width: 25em;
+  height: 22em;
+  border-radius: 10px;
+}
+
+.lower-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 2px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.humidity-container {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.feels-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.main-text {
+  font-size: large;
+}
+
+.small-text {
+  font-size: medium;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 5em;
+  background-color: black;
+  margin: 0 4em;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 1em;
+}
+
+input {
+  width: 12em;
+  height: 2em;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 4px;
+  text-align: center;
+  padding: 0.5em;
+}
+
+button {
+  width: 13em;
+  height: 3em;
+  margin: 2em;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 4px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  background-color: rgb(124, 82, 251);
+}
+
+.error-message {
+  margin: 0.5em;
+  font-weight: bolder;
+  color: red;
+}
+
+.weather-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icon {
+  font-size: 6rem;
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.sunny {
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.clear {
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.cloudy {
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.rainy {
+  color: #1e90ff;
+}
+
+.weather-icon.thunderstorm {
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.snowy {
+  color: rgb(46, 123, 246);
+}
+
+.weather-icon.foggy {
+  color: rgb(46, 123, 246);
+}
