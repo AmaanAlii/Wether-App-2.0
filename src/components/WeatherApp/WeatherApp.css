@@ -43,3 +43,50 @@ button {
   padding: 0.5em;
   background-color: rgb(124, 82, 251);
 }
+
+.error-message {
+  margin: 0.5em;
+  font-weight: bolder;
+  color: red;
+}
+
+/* WeatherApp.css */
+
+.weather-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icon {
+  font-size: 4rem; /* Adjust the size of the icons as needed */
+  color: #333; /* Change the color of the icons */
+}
+
+.weather-icon.sunny {
+  color: #ffd700; /* Custom color for sunny weather */
+}
+
+.weather-icon.clear {
+  color: #00008b; /* Custom color for clear weather */
+}
+
+.weather-icon.cloudy {
+  color: #808080; /* Custom color for cloudy weather */
+}
+
+.weather-icon.rainy {
+  color: #1e90ff; /* Custom color for rainy weather */
+}
+
+.weather-icon.thunderstorm {
+  color: #800080; /* Custom color for thunderstorm weather */
+}
+
+.weather-icon.snowy {
+  color: #ffffff; /* Custom color for snowy weather */
+}
+
+.weather-icon.foggy {
+  color: #a9a9a9; /* Custom color for foggy weather */
+}
