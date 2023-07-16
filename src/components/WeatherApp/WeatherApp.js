@@ -44,7 +44,6 @@ function WeatherApp() {
 
   const [cityName, setCityName] = useState("");
   const [weatherData, setWeatherData] = useState(null);
-  const [isWeatherDataVisible, setWeatherDataVisible] = useState(false);
 
   const handleLocationChange = (event) => {
     setCityName(event.target.value);
@@ -64,7 +63,6 @@ function WeatherApp() {
           cityData[0].lon
         );
         setWeatherData(cityWeather);
-        setWeatherDataVisible(true);
       } else {
         console.error(`Cannot find a city named: ${cityName}`);
         setWeatherData("error"); // Set the error message in the state
