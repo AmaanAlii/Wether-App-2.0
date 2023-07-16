@@ -21,7 +21,7 @@ function WeatherApp() {
   const fetchCoordinates = async (cityName) => {
     // this function fetches coordinates based on the city name
     try {
-      const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=100&appid=${API_KEY}`;
+      const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=100&appid=${API_KEY}`;
       const response = await axios.get(url);
       return response.data;
     } catch (error) {
