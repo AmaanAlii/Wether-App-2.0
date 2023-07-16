@@ -12,6 +12,59 @@
   border-radius: 10px;
 }
 
+.data-container {
+  margin-left: 5em;
+  background-color: rgb(255, 255, 255);
+  width: 25em;
+  height: 22em;
+  border-radius: 10px;
+}
+
+.lower-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 2px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.humidity-container {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.feels-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.main-text {
+  font-size: large;
+}
+
+.small-text {
+  font-size: medium;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 5em;
+  background-color: black;
+  margin: 0 4em;
+}
+
 .line {
   width: 100%;
   height: 2px;
@@ -50,8 +103,6 @@ button {
   color: red;
 }
 
-/* WeatherApp.css */
-
 .weather-icon-container {
   display: flex;
   align-items: center;
@@ -59,34 +110,34 @@ button {
 }
 
 .weather-icon {
-  font-size: 4rem; /* Adjust the size of the icons as needed */
-  color: #333; /* Change the color of the icons */
+  font-size: 6rem;
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.sunny {
-  color: #ffd700; /* Custom color for sunny weather */
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.clear {
-  color: #00008b; /* Custom color for clear weather */
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.cloudy {
-  color: #808080; /* Custom color for cloudy weather */
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.rainy {
-  color: #1e90ff; /* Custom color for rainy weather */
+  color: #1e90ff;
 }
 
 .weather-icon.thunderstorm {
-  color: #800080; /* Custom color for thunderstorm weather */
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.snowy {
-  color: #ffffff; /* Custom color for snowy weather */
+  color: rgb(46, 123, 246);
 }
 
 .weather-icon.foggy {
-  color: #a9a9a9; /* Custom color for foggy weather */
+  color: rgb(46, 123, 246);
 }
