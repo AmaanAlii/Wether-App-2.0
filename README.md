@@ -17,6 +17,7 @@ The Weather App is a simple web application that allows users to check the weath
    ![Screenshot - Error -1](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/729ef7e3-c68e-4b58-9a03-b582438253fb)
 
 - If the user enters an invalid city name:
+  
    ![Screenshot - Error -2](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/65c6d18f-d6a6-4523-8d95-28d61b14209b)
 
 - The App also includes error handling in the case the api is not responding.
