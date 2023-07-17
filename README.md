@@ -1,4 +1,7 @@
 # Weather App
+![Screenshot](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/09c4184e-a946-448c-9075-2bf40fa6b0c8)
+
+
 
 The Weather App is a simple web application that allows users to check the weather conditions for a specific city. It provides real-time weather data including temperature, description, feels like, humidity, and weather icons.
 
@@ -6,8 +9,18 @@ The Weather App is a simple web application that allows users to check the weath
 
 - **Weather Data**: The app fetches weather data from the OpenWeatherMap API based on the user's input city name.
 - **Dynamic Icons**: Weather icons dynamically change based on the current weather conditions, providing visual representation of the weather.
-- **Unit Conversion**: Temperature is displayed in Celsius, and users can easily convert it to Fahrenheit by clicking on the temperature value.
+- **Unit Conversion**: Temperature is displayed in Celsius.
 - **Responsive Design**: The app is designed to be responsive and provides a seamless experience across different devices.
+
+## Error Handling
+- If the user hits the "Check Weather" button without entering any city name:
+   ![Screenshot - Error -1](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/729ef7e3-c68e-4b58-9a03-b582438253fb)
+
+- If the user enters an invalid city name:
+   ![Screenshot - Error -2](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/65c6d18f-d6a6-4523-8d95-28d61b14209b)
+
+- The App also includes error handling in the case the api is not responding.
+
 
 ## Tech Stack
 
