@@ -44,6 +44,7 @@ During the production of this Weather App, several challenges were encountered:
 
 - **API Integration**: Integrating with the OpenWeatherMap API and handling the API responses required careful handling of asynchronous operations.
 - **Data Formatting**: Formatting the received weather data to display the desired information, such as temperature conversion and icon rendering, required additional logic and mapping.
+- **Routing**: Using routing in react to interconnect the two pages of the app: one for the input and the other for displaying the weather.
 - **Styling**: Creating an appealing and user-friendly design while ensuring responsiveness across various screen sizes required attention to detail and CSS styling.
 
 Despite these challenges, the Weather App was successfully implemented, providing users with a convenient way to check the weather conditions for any desired location.
