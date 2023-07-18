@@ -1,4 +1,6 @@
 # Weather App
+To see the app kindly use the link: https://amaan-ali-weather-app.netlify.app/
+
 ![Screenshot](https://github.com/AmaanAlii/weather-app-2.0/assets/117629490/09c4184e-a946-448c-9075-2bf40fa6b0c8)
 
 
